@@ -286,9 +286,6 @@ body{
 	background-color: #26397A;
 	height: 375px;
 }
-.fundo-fale-conosco{
-	height: 750px;
-}
 .div-fale{
 	display: flex;
 	margin: 0 auto;
@@ -384,14 +381,10 @@ label b{
 .pr{
 	font-weight: bold;
 }
-.pag_protudos{
-	display: flex;
-	justify-content: center;
-	height: 775px;
-}
 .div-produtos{
+	display: flex;
+	margin: 0 auto;
 	width: 1000px;
-	height: 100%;
 }
 .div-produtos .group-title{
 	text-align: left;
@@ -426,7 +419,6 @@ label b{
 .produto_{
 	display: inline-block;
 	margin-left: 50px;
-	width: 50%;
 }
 .tipo{
 	margin-bottom: 25px;
@@ -472,7 +464,6 @@ label b{
 .orcamentos{
 	display: flex;
 	justify-content: center;
-	height: 775px;
 }
 .preen_orca{ 
 	border-radius: 15px;
@@ -484,7 +475,6 @@ label b{
 }
 .orcamento{
 	width: 1000px;
-	height: 100%;
 }
 .orcamento .group-title{
 	text-align: left;
@@ -526,8 +516,7 @@ label b{
 .list-itens{
 	background-color: #fff;
 	border: 1px solid #aaa;
-	padding: 15px;
-	padding-bottom: 55px;
+	padding: 20px;
 }
 .item-orca{
 	border: 1px solid #aaa;
@@ -571,10 +560,40 @@ label b{
 	padding: 25px;
 	font-weight: bold;
 	border-radius: 5px;
+	margin-top: 30px;
 }
 .link-orca{
 	color: #fff;
 }
 .ver-todos-os-protudos{
 	color: #26397A;
+}
+.img-pr{
+	width: 234px;
+	height: 206px;
+}
+.item-categoria{
+	cursor: pointer;
+}
+.active{
+	font-weight: bold;
+}
+.seladoras{
+	display: none;
+}
+.hospitalar{
+	display: none;
+}
+.tunel-enco{
+	display: none;
+}
+.seladora-bundling{
+	display: none;
+}
+.PVC{
+	display: none;
+}
+.group-produto{
+	display: flex; 
+	flex-wrap: wrap;
 }

@@ -1,53 +1,174 @@
 <section class="pag_protudos">
+  <div class="group-title" style="text-align: left; padding: 50px;">
+    <h1 class="title-main">Produtos</h1>
+   </div>
   <div class="div-produtos">
-    <div class="group-title">
-      <h1 class="title-main">Produtos</h1>
-    </div>
     <div class="con_produtos">
       <div class="content-produtos">
         <ul class="nome_produtos">
           <li class="categoria">
             Máquinas
           </li>
-          <li>
-            Encolhimento
+          <li onclick="mudarCategoria(this, '.esteira');" class="active item-categoria">
+            Esteira transportadora
           </li>
-          <li>
-            Esteira
+          <li onclick="mudarCategoria(this, '.seladora-bundling');" class="item-categoria">
+            Seladora bundling
           </li>
-          <li>
-            Automática
+          <li onclick="mudarCategoria(this, '.tunel-enco');" class="item-categoria">
+            Túnel de encolhimento
           </li>
-          <li>
-            Aplicadores de Filme
+          <li onclick="mudarCategoria(this, '.hospitalar');" class="item-categoria">
+            Linha hospitalar
           </li>
-          <li>
-            <strong>
+          <li class="item-categoria" onclick="mudarCategoria(this, '.seladoras');">
               Seladoras
-            </strong>
           </li>
           <li class="categoria">
             Embalagens
           </li>
-          <li>
+          <li onclick="mudarCategoria(this, '.PVC');" class="item-categoria">
             P.V.C.
           </li>
         </ul>
       </div>
     </div>
-    <div class="produto_">
+    <div class="produto_ seladoras">
       <p class="tipo">
         Maquinas > <b>Seladoras</b>
       </p>
       <div class="produto2">
         <a href="produto.html">
-          <img src="./images/produto1.jpg">
+          <figure class="img-pr" style="  background-image: url('./images/produto1.jpg');"></figure>
         </a>
         <p class="categoria-do-produto">
           Seladoras
         </p>
         <h2 class="nome-do-produto">
           Seladora Conjugada
+        </h2>
+        <button class="btn-orcar btn_pr">+Orçar</button>
+      </div>
+    </div>
+    <div class="produto_ hospitalar">
+      <p class="tipo">
+        Maquinas > <b>Linha hospitalar</b>
+      </p>
+      <div class="produto2">
+        <a href="produto.html">
+          <figure class="img-pr" style="  background-image: url('./images/produto1.jpg');"></figure>
+        </a>
+        <p class="categoria-do-produto">
+          Hospitalar
+        </p>
+        <h2 class="nome-do-produto">
+          Seladora contínua de papel grau cirúrgico
+        </h2>
+        <button class="btn-orcar btn_pr">+Orçar</button>
+      </div>
+    </div>  
+    <div class="produto_ tunel-enco">
+      <p class="tipo">
+        Maquinas > <b>Túnel de encolhimento</b>
+      </p>
+      <div class="produto2">
+        <a href="produto.html">
+          <figure class="img-pr" style="  background-image: url('./images/produto1.jpg');"></figure>
+        </a>
+        <p class="categoria-do-produto">
+          Encolhimento
+        </p>
+        <h2 class="nome-do-produto">
+          Túnel de encolhimento de Polietileno
+        </h2>
+        <button class="btn-orcar btn_pr">+Orçar</button>
+      </div>
+    </div>
+    <div class="produto_ seladora-bundling">
+      <p class="tipo">
+        Maquinas > <b>Seladora bundling</b>
+      </p>
+      <div class="produto2">
+        <a href="produto.html">
+          <figure class="img-pr" style="  background-image: url('./images/produto1.jpg');"></figure>
+        </a>
+        <p class="categoria-do-produto">
+          Seladora
+        </p>
+        <h2 class="nome-do-produto">
+          Túnel de Bundling
+        </h2>
+        <button class="btn-orcar btn_pr">+Orçar</button>
+      </div>
+    </div>
+    <div class="produto_ esteira">
+      <p class="tipo">
+        Maquinas > <b>Esteira transportadora</b>
+      </p>
+      <div class="group-produto">
+        <div class="produto2">
+          <a href="produto.html">
+            <figure class="img-pr" style="  background-image: url('./images/produto1.jpg');"></figure>
+          </a>
+          <p class="categoria-do-produto">
+             Esteira
+          </p>
+          <h2 class="nome-do-produto">
+            Esteira transportadora
+          </h2>
+          <button class="btn-orcar btn_pr">+Orçar</button>
+        </div>
+        <div class="produto2">
+          <a href="produto.html">
+            <figure class="img-pr" style="  background-image: url('./images/produto1.jpg');"></figure>
+          </a>
+          <p class="categoria-do-produto">
+             Esteira
+          </p>
+          <h2 class="nome-do-produto">
+            Esteira transportadora
+          </h2>
+          <button class="btn-orcar btn_pr">+Orçar</button>
+        </div>
+        <div class="produto2">
+          <a href="produto.html">
+            <figure class="img-pr" style="  background-image: url('./images/produto1.jpg');"></figure>
+          </a>
+          <p class="categoria-do-produto">
+             Esteira
+          </p>
+          <h2 class="nome-do-produto">
+            Esteira transportadora
+          </h2>
+          <button class="btn-orcar btn_pr">+Orçar</button>
+        </div>
+        <div class="produto2">
+          <a href="produto.html">
+            <figure class="img-pr" style="  background-image: url('./images/produto1.jpg');"></figure>
+          </a>
+          <p class="categoria-do-produto">
+             Esteira
+          </p>
+          <h2 class="nome-do-produto">
+            Esteira transportadora
+          </h2>
+          <button class="btn-orcar btn_pr">+Orçar</button>
+        </div>
+      </div>
+    </div>  
+    <div class="produto_ PVC">
+      <p class="tipo">
+        Maquinas > <b>P.V.C</b>
+      </p>
+      <div class="produto2">
+        <a href="produto.html">
+          <figure class="img-pr" style="  background-image: url('./images/produto1.jpg');"></figure>
+        </a>
+        <p class="categoria-do-produto">
+          P.V.C
+        </p>
+        <h2 class="nome-do-produto">
+          Filmes de PVC
         </h2>
         <button class="btn-orcar btn_pr">+Orçar</button>
       </div>
