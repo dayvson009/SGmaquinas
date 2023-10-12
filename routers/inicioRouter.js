@@ -34,7 +34,7 @@ const includeTemplate = [
 ];
 
 const includeJs = [
-  './scripts/script.js',
+  './public/scripts/script.js',
 ]
 
 const titlePage = "Início - SG Máquinas";

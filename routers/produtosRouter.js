@@ -42,7 +42,7 @@ const includeTemplate = [
 ];
 
 const includeJs = [
-  './scripts/script.js',
+  './public/scripts/script.js',
 ]
 
 const titlePage = "Produtos - SG Máquinas";
