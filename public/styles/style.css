@@ -136,6 +136,11 @@ body{
 #protudos-empresa{
 	background-color: #26397A;
 }
+.pag_protudos{
+	min-height: 600px;
+	margin-bottom: 100px;
+}
+
 #produtos{
 	background-color: #fff;
 	max-width: 1120px;
@@ -384,7 +389,7 @@ label b{
 .div-produtos{
 	display: flex;
 	margin: 0 auto;
-	width: 1000px;
+	width: 1200px;
 }
 .div-produtos .group-title{
 	text-align: left;
@@ -398,27 +403,26 @@ label b{
 	display: inline-block;
 	padding: 0 10px;
 	margin-right: 25px;
+	margin-bottom: 50px;
 }
-.content-produtos{
+.nav-produtos{
 	background-color: #fff;
-	padding: 30px;
-	padding-right: 65px;
+	padding: 25px;
 	border-radius: 14px;
+	width: 300px;
 }
 .categoria{
 	font-size: 20px;
 	color: #ff0000;
 	font-weight: bold;
 }
-.content-produtos li{
+.nav-produtos li{
 	margin-bottom: 15px;
-}
-.con_produtos{
-	display: inline-block;
 }
 .produto_{
 	display: inline-block;
-	margin-left: 50px;
+	padding-left: 50px;
+	width: 100%;
 }
 .tipo{
 	margin-bottom: 25px;
@@ -571,6 +575,10 @@ label b{
 .img-pr{
 	width: 234px;
 	height: 206px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
 }
 .item-categoria{
 	cursor: pointer;
