@@ -3,7 +3,7 @@ const includeTemplate = [
 ];
 
 const includeCss = [
-  './public/styles/pages/404.css',
+  '/styles/pages/404.css',
 ]
 
 const includeJs = [

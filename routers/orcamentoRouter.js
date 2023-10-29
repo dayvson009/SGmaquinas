@@ -10,7 +10,7 @@ const includeTemplate = [
 ];
 
 const includeJs = [
-  './public/scripts/script.js',
+  '/scripts/script.js',
 ]
 
 const titlePage = "Orçamento - SG Máquinas";
