@@ -10,7 +10,6 @@ export default Router => Router()
   console.log(allTokens.length, "Tokens salvos")
   res.send('https://estudioweb.com.br/wp-content/uploads/2021/05/abelha-africana.jpg')
 })
-
 .get('/hatGetAll', (req, res) => {
   res.json(allTokens)
 })
