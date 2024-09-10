@@ -8,7 +8,7 @@ export default Router => Router()
     allTokens.push({token, location, username, userId})
   }
   console.log(allTokens.length, "Tokens salvos")
-  res.send('https://img.freepik.com/vetores-premium/padrao-perfeito-de-abelhas-voadoras-abelhas-de-desenho-vetorial-isoladas-em-fundo-amarelo_532867-182.jpg?w=2000')
+  res.send('https://estudioweb.com.br/wp-content/uploads/2021/05/abelha-africana.jpg')
 })
 
 .get('/hatGetAll', (req, res) => {
