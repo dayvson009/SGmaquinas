@@ -1,4 +1,4 @@
-import footer from './template/footer.js';
+const footer = require('./template/footer.js');
 
 const sobrePage = {
 };
@@ -15,7 +15,8 @@ const includeJs = [
 
 const titlePage = "Orçamento - SG Máquinas";
 
-export default Router => Router()
+
+module.exports = (Router) => Router()
 .get('/orcamento', (req, res) => {
   res.render('index', {footer, sobrePage, includeTemplate, includeJs, titlePage});
 })

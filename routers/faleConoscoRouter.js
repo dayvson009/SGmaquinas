@@ -1,4 +1,4 @@
-import footer from './template/footer.js';
+const footer = require('./template/footer.js');
 
 const contactPage = {
   phones : {
@@ -23,7 +23,8 @@ const includeJs = [
 
 const titlePage = "Fale Conosco - SG Máquinas";
 
-export default Router => Router()
+
+module.exports = (Router) => Router()
 .get('/faleconosco', (req, res) => {
   res.render('index', {footer,titlePage,includeTemplate,includeJs,contactPage});
 })

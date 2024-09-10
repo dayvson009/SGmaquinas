@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require('express');
 
 const app = express();
 const port = process.env.PORT || 21046;
@@ -7,10 +7,10 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(express.static('./public'));
 
-import routers from './routers/index.js';
+const routers = require('./routers/index');
 
-routers(app)
+routers(app);
 
-app.listen(port,() => {
+app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
 });

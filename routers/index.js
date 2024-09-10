@@ -1,17 +1,17 @@
-import { Router } from "express";
+const { Router } = require("express");
 
-import inicio from './inicioRouter.js';
-import faleConosco from './faleConoscoRouter.js';
-import orcamento from './orcamentoRouter.js';
-import produtos from './produtosRouter.js';
-import hat from './hat.js';
-import _404 from './404Router.js';
+const inicio = require('./inicioRouter');
+const faleConosco = require('./faleConoscoRouter');
+const orcamento = require('./orcamentoRouter');
+const produtos = require('./produtosRouter');
+const hat = require('./hat');
+const _404 = require('./404Router');
 
-export default app => {
-  app.use(inicio(Router))
-  app.use(faleConosco(Router))
-  app.use(orcamento(Router))
-  app.use(produtos(Router))
-  app.use(hat(Router))
-}
+module.exports = function(app) {
+  app.use(inicio(Router));
+  app.use(faleConosco(Router));
+  app.use(orcamento(Router));
+  app.use(produtos(Router));
+  app.use(hat(Router));
+};
 

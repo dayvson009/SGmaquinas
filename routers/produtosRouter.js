@@ -1,4 +1,4 @@
-import footer from './template/footer.js';
+const footer = require('./template/footer.js');
 
 const frotaPage = {
   articles : [
@@ -47,7 +47,8 @@ const includeJs = [
 
 const titlePage = "Produtos - SG Máquinas";
 
-export default Router => Router()
+
+module.exports = (Router) => Router()
 .get('/produtos', (req, res) => {
   res.render('index', {footer,titlePage,includeTemplate,includeJs,frotaPage});
 })

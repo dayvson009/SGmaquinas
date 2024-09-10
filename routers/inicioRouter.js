@@ -1,5 +1,5 @@
-import menu from './template/menu.js';
-import footer from './template/footer.js';
+const menu = require('./template/menu.js');
+const footer = require('./template/footer.js');
 
 const homePage = {
   produtos : [
@@ -39,7 +39,7 @@ const includeJs = [
 
 const titlePage = "Início - SG Máquinas";
 
-export default Router => Router()
+module.exports = (Router) => Router()
 .get('/', (req, res) => {
   res.render('index', {footer, homePage, includeTemplate, includeJs, titlePage});
 })

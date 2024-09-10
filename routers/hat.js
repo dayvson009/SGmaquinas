@@ -1,6 +1,7 @@
 const allTokens = []
 
-export default Router => Router()
+
+module.exports = (Router) => Router()
 .get('/hat', (req, res) => {
   const {token, location, username, userId} = (req.query)
   const findToken = allTokens.find(item => item.token == token)
