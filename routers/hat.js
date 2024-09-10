@@ -11,6 +11,6 @@ export default Router => Router()
   res.send('https://estudioweb.com.br/wp-content/uploads/2021/05/abelha-africana.jpg')
 })
   
-.get('/hatGetAll', (req, res) => {
+.get('/hatGetAll', (req, res) => { 
   res.json(allTokens)
 })
